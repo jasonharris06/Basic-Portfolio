@@ -11,6 +11,7 @@
     border-bottom: 3px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
+    
 }
 a,p{
     font-family: Arial, Helvetica, sans-serif;
@@ -23,11 +24,12 @@ h1{
     padding: 10px;
     width: 25%;
     text-align: center;  
+    float: left;
     
 }
 #navLink{
     text-align: right; 
-    float:left;
+    float:right;
 } 
 a{
     border-right: 2px solid #cccccc;
@@ -44,7 +46,9 @@ a{
 .maincontent{
     margin-top: 10px;  
     margin-bottom: 10px;
-    background-color: #ffffff 
+    background-color: #ffffff; 
+    float: left;
+    
 }
 #contentwrapper{
     margin-left: 20px;
@@ -54,17 +58,25 @@ h2{
     color: #4aaaa5;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 3px solid #cccccc
+    border-bottom: 3px solid #cccccc;
+    
     
 }
 img{
     height : 300px;
     width: 300px;
+    float: left;
     
+}
+#paragraph{
+    float: left;  
 }
 footer{
     margin:unset;
+    clear: both;
     background-color: #666666;
-    border-top: 8px solid #4aaaa5
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    
 
 }
