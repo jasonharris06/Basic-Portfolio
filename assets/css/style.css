@@ -19,30 +19,33 @@ body{
     
     
 }
-a,p{
+a,p,label{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777
 }
 h1{
     background-color: #4aaaa5;
     color: #ffffff;
-    /* flex: left; */
     padding: 10px;
     width: 25%;
-    text-align: center;  
-    margin:unset;
+    text-align: center;
+    margin: unset;
     float: left;
+    font-size: 38px;
 
 }
 #navLink{
-    text-align: right; 
-    float: left
+    text-align: right;
+    float: right;
+    padding: 8px;
+    margin-top: 14px;
     
 } 
 a{
-    border-right: 2px solid #cccccc;
-    padding:10px;
+    border-right: 1px solid #cccccc;
+    padding: 10px;
     font-size: 15px;
+    margin-top: 21px;
     
 } 
 #Header::after{
@@ -94,6 +97,18 @@ img{
 }
 a:hover{
     color:black;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form{
+    padding-top: 9px;
 }
 footer{
     margin:unset;
