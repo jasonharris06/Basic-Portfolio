@@ -81,15 +81,25 @@ img{
 .box-set{
     display: grid;
     grid-template-columns: 300px 300px 300px;
+    margin-top: 20px;
     /* background-color: #666666 */
 }
-.box{
+.box,#pictag{
     margin: unset;
     height: 270px;
     width: 270px;
     margin-bottom: 30px;
     background-color: grey;
     opacity: 1.0;
+}
+#pictag{
+    display:flex;
+    align-items: flex-end;
+    height: 100px;
+    background-color: #cccccc;
+    color: yellow
+
+    
 }
 .box:hover{
     opacity: .5;
@@ -106,6 +116,18 @@ input[type=text]{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    display:flex;
+    justify-items: first baseline;
+}
+input[type=submit]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #4aaaa5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
 }
 .form{
     padding-top: 9px;
@@ -118,6 +140,12 @@ footer{
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    Padding: 20px;
+
     
 
 }
