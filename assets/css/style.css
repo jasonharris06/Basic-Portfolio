@@ -2,7 +2,7 @@ body{
     background-image : url("https://www.toptal.com/designers/subtlepatterns/patterns/full-bloom.png")
 }
 .Wrapper,#headerwrapper{
-    /* display: block; */
+   
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -15,11 +15,9 @@ body{
     border-bottom: 3px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     top: 0px;
-    /* display: flex; */
-    
     
 }
-a,p,label{
+a,p,label,footer{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777
 }
@@ -54,21 +52,22 @@ a{
   clear: both;
 } 
 .maincontent{
-    margin-top: 10px;  
-    margin-bottom: 10px;
+    margin-top: 20px;  
+    margin-bottom: 20px;
     background-color: #ffffff; 
-    float: left;
     width: 960px;
 }
 #contentwrapper{
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 h2{
     color: #4aaaa5;
     padding-top: 15px;
     padding-bottom: 20px;
     border-bottom: 3px solid #cccccc;
+    font-size: 28px
     
   }
 img{
@@ -80,27 +79,30 @@ img{
 }
 .box-set{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 300px 300px;
     margin-top: 20px;
-    /* background-color: #666666 */
+    margin-bottom: 10%;
+
 }
-.box,#pictag{
-    margin: unset;
+.box,#pictag, #ImgPort{
     height: 270px;
     width: 270px;
     margin-bottom: 30px;
-    background-color: grey;
     opacity: 1.0;
 }
 #pictag{
-    display:flex;
-    align-items: flex-end;
-    height: 100px;
-    background-color: #cccccc;
-    color: yellow
-
-    
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    margin-top: 175px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    opacity: .9;
+    font-size: 20pt    
 }
+
 .box:hover{
     opacity: .5;
     
@@ -129,22 +131,33 @@ input[type=submit]{
     box-sizing: border-box;
     
 }
+input[type=Message]{
+    width: 100%;
+    padding: 100px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display:flex;
+    justify-items: first baseline;
+}
 .form{
     padding-top: 9px;
 }
 footer{
-    margin:unset;
-    color: unset;
-    color:#ffffff;
-    clear: both;
+   
+    
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    color:#ffffff;
     text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     Padding: 20px;
+    margin-top: 20px
 
     
 
